@@ -1,0 +1,31 @@
+@import url("/css/Pagina_principal/CssPrincipal.css");
+@import url("/css/Pagina_principal/sujestoes.css");
+@import url("/css/Pagina_principal/slides.css");
+@import url("/css/Pagina_principal/TrocaCor.css");
+@import url("/css/Pagina_principal/CssPrincipal.css");
+@import url("/css/Pagina_principal/rodapé.css");
+@import url("/css/PaginaBBank/cabecalho.css");
+@import url("/css/PaginaBBank/slides_bb.css");
+@import url("/css/PaginaBBank/conteudo_bb.css");
+@import url("/css/PaginaBBank/rodapeBB.css");
+@import url("/css/Pagina_principal/corAlt.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor--pagina: #1f0224;
+    --branco: #FFFFFF;
+    --texto: #a7a6a6;
+    --cor--botao: #7160de;
+    --preto: #000000;
+    --roxo--escuro: #221d45;
+    --dourado: #ffd700;
+}
+body{
+    background-color: var(--cor--pagina);
+    font-size: 16px;
+    text-align: center;
+    transition: 1s;
+}
